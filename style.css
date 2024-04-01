@@ -842,7 +842,7 @@ flex:1 1 40rem;
     resize:none;
 }
 .account-form-container{
-    background: url(image/image2.webp),rgba(27, 54, 39, 0.7) no-repeat;
+    background: url(image2.webp),rgba(27, 54, 39, 0.7) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
