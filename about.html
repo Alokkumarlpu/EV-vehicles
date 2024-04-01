@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- header section starts -->
+    <header class="header">
+        <section class="flex">
+            <div class="fas fa-bars-staggered"></div>
+            <a href="index.html" class="logo"><img class="A" src="image/image13.jpg">EV Vehicles</a>
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="vehicles.html">all cars</a>
+                <a href="contact.html">contact us</a>
+                <a href="login.html">account</a>
+            </nav>
+            <a href="#" class="btn" style="margin-top:0;">View  Cars</a>
+        </section>
+    </header>
+    <!-- header seaction ends -->
+    <!--about section starts-->
+    <div class="section-title">about us</div>
+    <section class="about">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <div class="box ">
+            <h3>Electric</h3>
+          <p>
+            We see our air is polluted everywhere and almost 91 percent people breathe unsafe air. India ranks at 3rd position in terms of causing air pollution and 7 of the world’s 10 most polluted cities are in India.
+
+As India is witnessing rapid urbanization which leads to increase the need of transportation for the daily commutes. India with such a huge amount of population uses millions of private and public vehicles causing vehicular pollution everywhere. The vehicles use fossil fuels which emits a lots of carbon dioxide and other such dangerous gases in their air which is not only affecting the environment but also to the human health.
+
+We need to think about our environment (earth) after all we live in it. We sincerely believe electric vehicles are the need of the hour to save the environment and to breathe a clean and fresh air. By using electric vehicles, we get zero emissions, quiet, cost effective, low maintenance and most importantly Eco-friendly riding experiences.
+
+ElectricVehicles.in has been born in 2017 with the sole objective of spreading awareness about electric vehicles all over the world.  Our Slogan is “Go Green! Go Electric!”.
+
+We are publishing electric vehicles related latest news, reviews, new launches, expert interviews, press releases, summits and conferences, events updates and start-up stories.
+
+ElectricVehicles.in is the one stop knowledge portal for job enthusiasts, dealers, manufacturers and shareholders, etc.
+          </p>
+          <p>
+
+            WHAT WE DO?
+
+We do research and bring you the best information you are looking for (researched articles, in-depth analysis)
+We serve you with the monthly sales report from all over India (State-wise, Category-wise sales reports)
+We make your weekends exciting by bringing you the start-up story every weekend. (job start-up of the week)
+We bring you the monthly poll (job month poll-opinion)
+We keep you updated with the new electric vehicles launches and reviews
+We alert you for the upcoming jobs events, conferences, summits and Expo.
+We publish all kinds of electric vehicles categories news, reviews, launches, etc.
+
+          </p>
+          <p>
+            Disclaimer:
+
+Any information on electricvehicles.in given at this platform is intended for the general guidance only and should not to be considered as the qualified professional advice.
+
+If in case you get questions, it’s always better to have a conversation with other professionals regarding any of the content uploaded here.
+
+Although we take care of each and every content published here is correct and updated.
+
+Electricvehicles.in make no promises or commitments regarding the accuracy or sustainability of the information shared on this platform.
+
+Electricvehicles.in with its sole discretion can remove, change or replace any of the content (information) rightfully.
+
+Electricvehicles.in is not responsible for any of the direct, indirect, incidental, significant, punitive damages created due to the access or use of any of the content available on this channel such as reviews, launches or news updates.
+
+Electricvehicles.in can’t fully control the access, views.All the comments are read and reviewed by Electric vehicles and may delete if it seems to be inappropriate.
+
+Viewer’s comments which are offensive, unrelated or promotional will not be entertained.
+
+          </p>
+
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div></section></div>
+    </section>
+    <!--about section ends-->
+
+    <!--review section starts-->
+    <div class="section-title">top reviews</div>
+    <section class="reviews">
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3 class="title">Amazing to use</h3>
+                <p>This website helps me to get perfect ev for my use.</p>
+                <div class="user">
+                    <img src="image/image10.jfif" alt="404">
+                    <h3>Alok kumar</h3>
+                    <span>Software designer</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3 class="title">got at reasonable price</h3>
+                <p>Happy by the price description.</p>
+                <div class="user">
+                    <img src="image/image7.webp" alt="">
+                    <h3>deepika jha</h3>
+                    <span>Graphic designer</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3 class="title">500+ variety</h3>
+                <p>More than 500 types of car</p>
+                <div class="user">
+                    <img src="image/image9.jpg" alt="404">
+                    <h3>Dilip kumar</h3>
+                    <span>Web developer</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3 class="title">Easy to interact woth services</h3>
+                <p>Got good customer service.</p>
+                <div class="user">
+                    <img src="image/image11.jfif" alt="">
+                    <h3>john cena</h3>
+                    <span>Cyber Security</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3 class="title">2000+ seller</h3>
+                <p>More than 2000+seller around globe</p>
+                <div class="user">
+                    <img src="image/image6.jfif" alt="404">
+                    <h3>siddhart shauryagugit</h3>
+                    <span>Devops engineers</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3 class="title">Wide Range</h3>
+                <p>More than 1000+ vairety of cars available in different design so amazed.</p>
+                <div class="user">
+                    <img src="image/image8.jpg" alt="404">
+                    <h3>Neha Sharama</h3>
+                    <span>web designer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--reviews section ends-->
+
+    <!--footer section starts-->
+
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html">
+                    <i class="fas fa-angle-right"></i> home
+                </a>
+                <a href="about.html">
+                    <i class="fas fa-angle-right"></i> about
+                </a>
+                <a href="jobs.html">
+                    <i class="fas fa-angle-right"></i> all car
+                </a>
+                <a href="contact.html">
+                    <i class="fas fa-angle-right"></i> contact us
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> filter search
+                </a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> account
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> login
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> registers
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> post job
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> dashboard
+                </a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i> facebook
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i> twitter
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i> instagarm
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i> youtube
+                </a>
+
+
+            </div>
+
+        </section>
+        <div class="credit">&copy; copyright @ 2024 by <span>Electric Vehicles</span>| All Right Reserved!|</div>
+    </footer>
+
+
+</body>
+
+</html>

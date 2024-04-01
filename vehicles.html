@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Jobs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <div class="fas fa-bars-staggered"></div>
+            <a href="index.html" class="logo"><img class="A" src="image/image13.jpg">EV Vehicles</a>
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="vehicles.html">all cars</a>
+                <a href="contact.html">contact us</a>
+                <a href="login.html">account</a>
+            </nav>
+            <a href="#" class="btn" style="margin-top:0;">View  Cars</a>
+        </section>
+    </header>
+    <!-- header seaction ends-->
+    <!--job filter section-->
+    <section class="job-filter">
+        <h1 class="heading">Filter Cars</h1>
+        <form action="" method="post">
+            <div class="flex">
+                <div class="box">
+                    <p>Car Model <span>*</span></p>
+                    <input type="text" name="title" placeholder="keywords,category or company" required maxlength="20"
+                        class="input">
+                </div>
+                <div class="box">
+                    <p>Your location</p>
+                    <input type="text" name="location" placeholder="city,state or country" required maxlength="50"
+                        class="input">
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <div class="dropdown">
+                    <input type="text" class="output" readonly placeholder="date posted" name="date" maxlength="20">
+                    <div class="lists">
+                        <p class="items">
+                            today
+                        </p>
+                        <p class="items">
+                            3 days ago
+                        </p>
+                        <p class="items">
+                            7 days ago
+                        </p>
+                        <p class="items">
+                            10 days ago
+                        </p>
+                        <p class="items">
+                            15 days ago
+                        </p>
+                        <p class="items">
+                            30 days ago
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <input type="text" class="output" readonly placeholder="Day " name="date" maxlength="20">
+                    <div class="lists">
+                        <p class="items">
+                            Monday
+                        </p>
+                        <p class="items">
+                            Tuesday
+                        </p>
+                        <p class="items">
+                            Wednesday
+                        </p>
+                        <p class="items">
+                           Thursday
+                        </p>
+                        <p class="items">
+                            Friday
+                        </p>
+                        <p class="items">
+                            Saturday
+                        </p>
+                        <p class="items">
+                            Sunday
+                        </p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <input type="text" class="output" readonly placeholder="Estimated Cost" name="date"
+                        maxlength="20">
+                    <div class="lists">
+                        <p class="items">
+                            1l or less
+                        </p>
+                        <p class="items">5l - 10l
+                        </p>
+                        <p class="items">10l - 20l
+                        </p>
+                        <p class="items">
+                            20l - 30l
+                        </p>
+                        <p class="items">
+                            40l -50l
+                        </p>
+                        <p class="items">
+                            50l or more
+                        </p>
+                    </div>
+                </div>
+                    <div class="dropdown">
+                        <input type="text" class="output" readonly placeholder="Timing " name="date" maxlength="20">
+                        <div class="lists">
+                            <p class="items">
+                                3:00 - 4:00
+                            </p>
+                            <p class="items">
+                                4:00 - 5:00
+                            </p>
+                            <p class="items">
+                                Full Day
+                            </p>
+                            <p class="items">
+                                Night Time
+                            </p>
+                            <p class="items">
+                                Flexible time
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </section>
+
+
+
+    <!--car filter section ends-->
+    <!--all cars section starts-->
+    <section class="jobs-container">
+        <h1 class="heading">all cars</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="company">
+                    <img src="image/image13.jpg" alt="">
+                    <div>
+                        <h3>Koko co.</h3>
+                        <p>2 days ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Honda Car</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>mumbai,india</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>10l - 25l</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Weekends Off</span></p>
+                    <p><i class="fas fa-clock"></i><span>24 hours</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_details1.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="image/image2.webp" alt="">
+                    <div>
+                        <h3>all media ltd</h3>
+                        <p>2 days ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Mahindra Showroom</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>mumbai,india</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>9l+</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full Week</span> </p>
+                    <p><i class="fas fa-clock"></i><span>24 hours+</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_details1.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="image/image5.jpg" alt="">
+                    <div>
+                        <h3>Cars Solutions</h3>
+                        <p>Posted Today</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Volkswagon</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>mumbai,india</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>10l - 25l</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Weekends off</span> </p>
+                    <p><i class="fas fa-clock"></i><span>24 Hours+</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_details1.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="image/image3.cms" alt="">
+                    <div>
+                        <h3>kumar private ltd</h3>
+                        <p>2 days ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">B M W</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>mumbai,india</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>30l - 100l</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full Week</span> </p>
+                    <p><i class="fas fa-clock"></i><span>24+ Hours</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_details1.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="image/image12.jpg" alt="">
+                    <div>
+                        <h3>Pradhan co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Audi</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>mumbai,india</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>10l - 25l</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full Week</span> </p>
+                    <p><i class="fas fa-clock"></i><span>16 hours+</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_details1.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+
+
+
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="image/image14.jpg" alt="">
+                    <div>
+                        <h3>Jagan co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">TATA</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>punjab,india</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>10l - 25l</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>4 working days</span> </p>
+                    <p><i class="fas fa-clock"></i><span>10 Hours+</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_details1.html" class="btn">view details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+    <!--all cars section ends-->
+
+
+    <!--footer section start-->
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html">
+                    <i class="fas fa-angle-right"></i> home
+                </a>
+                <a href="about.html">
+                    <i class="fas fa-angle-right"></i> about
+                </a>
+                <a href="jobs.html">
+                    <i class="fas fa-angle-right"></i> all cars
+                </a>
+                <a href="contact.html">
+                    <i class="fas fa-angle-right"></i> contact us
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> filter search
+                </a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> account
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> login
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> registers
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> post job
+                </a>
+                <a href="#">
+                    <i class="fas fa-angle-right"></i> dashboard
+                </a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i> facebook
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i> twitter
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i> instagarm
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i> youtube
+                </a>
+
+
+            </div>
+
+        </section>
+        <div class="credit">&copy; copyright @ 2024 by <span>Electric Vehicles</span>| All Right Reserved!|</div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+       let dropdown_items = document.querySelectorAll('.job-filter form .dropdown-container .dropdown .lists .items');
+       
+       dropdown_items.forEach(items =>{
+        items.onclick = () =>{
+            items_parent=items.parentElement.parentElement;
+            let output=items_parent.querySelector('.output');
+            output.value=items.innerText;
+        }
+       });
+    </script>
+</body>
+
+</html>
