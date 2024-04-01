@@ -124,7 +124,7 @@ section{
 }
 
 .home-container{
-    background: url(image/ev.webp)rgba(49, 55, 53, 0.7) no-repeat;
+    background: url(ev.webp)rgba(49, 55, 53, 0.7) no-repeat;
     background-blend-mode:color;
     background-position: center;
     background-attachment: fixed;
